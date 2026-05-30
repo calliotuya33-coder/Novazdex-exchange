@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #08060E;
+  color: #F4EEFF;
+  font-family: 'Kanit', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar matching PancakeSwap UX */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #08060E;
+}
+::-webkit-scrollbar-thumb {
+  background: #27262C;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #372F47;
+}
